@@ -1,5 +1,6 @@
 import { ArgumentMetadata, Injectable, NotFoundException, PipeTransform } from "@nestjs/common";
-import { PostsService } from "../posts.service";
+import { PostsService } from "../services/posts.service";
+
 
 //A pipe is a function that runs before your controller method and can do only two things:
     // Transform data : change the incoming value or block incoming request

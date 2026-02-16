@@ -1,5 +1,6 @@
 import { Post } from "../interfaces/post.interface";
 
+// Dummy Data
 export const POSTS: Post[] = [
     {
         id: 1,
